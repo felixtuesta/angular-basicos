@@ -1,0 +1,11 @@
+<p>listado de Heroes...</p>
+<div>
+    <h3>Héroe capturado</h3>
+    <span>{{heroeCapturado}}</span>
+</div>
+<button (click)="capturarHeroe()">Capturar heroe...</button>
+<ul>
+    <li *ngFor="let heroe of heroes">
+        {{heroe}}
+    </li>
+</ul>

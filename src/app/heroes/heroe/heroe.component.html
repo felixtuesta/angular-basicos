@@ -1,0 +1,15 @@
+<h1>{{nombre}} preparado para la acción...</h1>
+<dl>
+    <dt>Nombre</dt>
+    <dd>{{nombre}}</dd>
+    <dt>Edad</dt>
+    <dd>{{edad}}</dd>
+    <dt>Método obtenerNombreEdad</dt>
+    <dd>{{obtenerNombreEdad()}}</dd>
+    <dt>Nombre capitalizado</dt>
+    <dd>{{nombre.toUpperCase()}}</dd>
+    <dt>Nombre capitalizado desde get en la clase</dt>
+    <dd>{{nombreCapitalizado}}</dd>
+</dl>
+<button (click)="cambiarNombre()">Cambiar heroe</button>
+<button (click)="cambiarEdad()">Cambiar edad</button>
